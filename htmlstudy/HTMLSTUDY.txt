@@ -1,7 +1,14 @@
-
 HTML - Hyper Text Markup Language
 It is a language for describing information or content.
 Standard is v4.01. v5 is WIP
+
+Rendering engine:
+Firefox - Gecko
+Chrome - Blink
+Safari - Webkit
+Internet Explorer - Trident
+Opera - Blink
+
 
 TAGS
 <tagName>
@@ -13,14 +20,78 @@ CSS is purely for giving visual style to the elements defined by the HTML.
 Javascript allows us to add interactivity to the elements defined by the HTML.
 
 Template
-    <!doctype html>
-    <html>
-    <head>
-    <title>Our Funky HTML Page</title>
-    <meta name="description" content="Our first page">
-    <meta name="keywords" content="html tutorial template">
-    </head>
-    <body>
-    Content goes here.
-    </body>
-    </html>
+<!doctype html>
+<html>
+<head>
+<title>Our Funky HTML Page</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+</head>
+<body>
+Content goes here.
+</body>
+</html>
+
+NOTE:-
+Search engines generally only show the first 65 characters of the title (give or take a few characters). You should aim to keep your title to less than this amount.
+
+Search engines generally only show the first 155 characters of the description (give or take a few characters). You should aim to keep your description to less than this amount.
+
+header tag
+<h1>Heading here</h1>
+Use upto level 6...or break into pages or use css for custom header
+
+paragraph header
+ignore white space and new lines.
+<p>My paragraph here</p>
+
+bold
+<b>text</b>
+<strong>text</strong>
+
+italic
+<i>text</i>
+<em>text</em>  #emphasis
+
+underline
+<u>text</u>
+
+superscript
+<sup>text</sup>
+
+subscript
+<sub>text</sub>
+
+Horizontal line
+<hr>
+
+Nesting of tag
+<p>His mouth started to speak, <b><u>but his brain</u></b> decided it hadn't
+got anything to say yet and shut it again.</p>
+
+Exception is overlapping containers.
+<p>Once more gathering up the jaw, <b>his brain <u>lost control</b>
+of his left hand</u> which then wandered around in an aimless fashion.</p>
+
+Special Characters
+&codename;
+or
+&#codenumber;
+&clubs; or &#9827;&dagger; or &#8224
+Symbol 	Name 	Number
+< 	lt 	60
+> 	gt 	62
+& 	amp 	38
+© 	copy 	169
+» 	raquo 	187
+« 	laquo 	171
+½ 	frac12 	189
+
+Prefomatted text
+<pre> content </pre>
+
+comment
+<!-- comment here -->
+
+Links
+<a href="location">link</a>
