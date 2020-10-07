@@ -1,0 +1,26 @@
+
+HTML - Hyper Text Markup Language
+It is a language for describing information or content.
+Standard is v4.01. v5 is WIP
+
+TAGS
+<tagName>
+<tagName attribute="value" >
+<tagName>Some content</tagName>
+
+HTML is purely for identifying what information is.
+CSS is purely for giving visual style to the elements defined by the HTML.
+Javascript allows us to add interactivity to the elements defined by the HTML.
+
+Template
+    <!doctype html>
+    <html>
+    <head>
+    <title>Our Funky HTML Page</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+    </head>
+    <body>
+    Content goes here.
+    </body>
+    </html>
