@@ -95,3 +95,111 @@ comment
 
 Links
 <a href="location">link</a>
+
+URL link could be absolute or relative
+<p><a href="http://ryanstutorials.net/html-tutorial/html-images.php">Absolute link</a>
+to the next section.</p>
+<p><a href="/html-tutorial/html-images.php">Relative link</a> to the next section
+from the base of the domain.</p>
+Relative URL good to move files of website
+
+Link anchor
+<a name='anchorname'> </a>
+or
+<tagname id='anchorname'> </tagname>
+    <body>
+    <a name="mysection1"></a><p>This is an interesting section.</p>
+    <p id="mysection2">This is another interesting section.</p>
+    <p><a href="./html-links.php#mysection1">Jump to section 1</a> or
+    <a href="#mysection2">Jump to section 2</a>.</p>
+    </body>
+
+Email tag
+<a href="mailto:email@address.com"> </a>
+<p><a href="mailto:ryan@nowhere.net?subject=An important message&body=Not really that important">Email me</a>
+ aaaaa </p>
+
+ Link Title
+<a href="location" title="link title">link</a>
+
+images
+
+<img src="URL" alt="image description" >
+<img src="./img/rabbit.png" alt="A small rabbit" width="30px" height="30px" >
+you may include your image anywhere in your content, even within links and headings.
+
+
+.jpg - (sometimes .jpeg) Stands for Joint Photographic Experts Group. This type is ideal for photos and realistic images.
+.png - Stands for Portable Network Graphics. This type is ideal for images which have a lot of solid colours (eg, charts, comics, clip art, etc). It also supports transparency within images which .jpg does not.
+.gif - Stands for Graphical Interchange Format. Is similar to .png. Was not popular for a while due to patent issues but those have been resolved now. .png is still generally preferred to .gif however as it is newer and slightly improved. Some people believe that .gif is slightly faster to render than .png but on todays faster hardware this is not really an issue.
+
+Make sure you pick the appropriate file type. If the image is photographic, use .jpg, solid colours, use .png.
+Reduce the image dimensions to be that at which the image will be displayed. If the image is to be displayed on the page at 200px x 500px make sure the actual image isn't 400px x 1000px.
+Apply the right level of compression and optimise your images. You can often achieve quite a reduction in file size without any noticeable loss in image quality.
+
+he size and dimensions of images is important also. The Golden Ratio (1:1.61) can lead to images with dimensions which are more pleasing
+
+LIST
+
+ordered LIST
+<ol>
+<li>List item</li>
+</ol>
+
+unordered List
+<ul>
+<li>List item</li>
+</ul>
+
+ordered list type
+<ol type="a" >
+Type 	Effect
+a 	Alphanumeric - a. b. c.
+A 	Uppercase Alphanumeric - A. B. C.
+i 	Roman numerals - i. ii. iii.
+I 	Uppercase Roman Numerals - I. II. III.
+
+unordered list
+Type 	Effect
+square 	Square Bullets
+disk 	Disc Bullets
+circle 	Circle Bullets
+
+Change order
+<ol start="4" >
+
+reversed
+<ol reversed >
+
+change list inbetween
+<li value="9" > </li>
+
+
+Nested list
+<p>HTML Tutorial:</p>
+<ol>
+<li value="7" >Links</li>
+<li>Images</li>
+<li>Lists
+<ol type="i" >
+<li>Introduction</li>
+<li>Displaying a List</li>
+<li>And others...</li>
+</ol>
+</li>
+<li>Tables</li>
+</ol>
+
+Definition list
+list pair of values
+
+<dl>
+<dt>Term>/dt>
+<dd>Definition</dd>
+</dl>
+
+
+
+
+
+
